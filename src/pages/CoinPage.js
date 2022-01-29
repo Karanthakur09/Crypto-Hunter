@@ -2,8 +2,6 @@ import { LinearProgress, makeStyles, Typography } from "@material-ui/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Chart as ChartJS } from 'chart.js/auto'
-import { Chart }            from 'react-chartjs-2'
 import ReactHtmlParser from "react-html-parser";
 import CoinInfo from "../components/CoinInfo";
 import { SingleCoin } from "../config/api";
@@ -147,7 +145,7 @@ const CoinPage = () => {
                   .toString()
                   .slice(0, -6)
               )}
-              
+              M
             </Typography>
           </span>
         </div>

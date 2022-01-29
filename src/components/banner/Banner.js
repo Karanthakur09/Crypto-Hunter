@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const useStyles = makeStyles((theme) => ({
   banner: {
-    backgroundImage: "url(./banner2.jpg)",
+    backgroundImage: "url(https://ak.picdn.net/shutterstock/videos/1034379173/thumb/1.jpg)",
   },
   bannerContent: {
     height: 400,
@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     paddingTop: 25,
     justifyContent: "space-around",
+
   },
   tagline: {
     display: "flex",
