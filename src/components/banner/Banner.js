@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     paddingTop: 25,
-    justifyContent: "space-around",
+    color:"black",
+    justifyContent: "space-around"
 
   },
   tagline: {
@@ -47,7 +48,7 @@ function Banner() {
           <Typography
             variant="subtitle2"
             style={{
-              color: "darkgrey",
+              color: "darkbrown",
               textTransform: "capitalize",
               fontFamily: "Montserrat",
             }}
